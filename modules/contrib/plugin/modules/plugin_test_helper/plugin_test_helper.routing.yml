@@ -1,0 +1,7 @@
+plugin_test_helper.plugin_selector.advanced_plugin_selector_base:
+  path: '/plugin_test_helper-plugin_selector-advanced_plugin_selector_base/{allowed_selectable_plugin_ids}/{plugin_id}/{tree}'
+  defaults:
+    _form: '\Drupal\plugin_test_helper\AdvancedPluginSelectorBasePluginSelectorForm'
+    tree: 0
+  requirements:
+    _access: 'TRUE'

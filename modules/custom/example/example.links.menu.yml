@@ -1,0 +1,12 @@
+example.admin:
+  title: 'Example settings'
+  description: 'Manage example settings for your site'
+  parent: system.admin
+  route_name: example.my_page
+  weight: 100
+  route_parameters: { key: 'value' }
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main_menu 
+  options: 
+    attributes:
+      target: _blank

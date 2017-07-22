@@ -1,0 +1,17 @@
+name: Payment Reference Field
+description: Provides a field to add payment references to entities.
+# core: 8.x
+configure: payment.payment_type
+configure_parameters:
+  bundle: payment_reference
+type: module
+package: Payment
+dependencies:
+  - entity_reference
+  - payment
+
+# Information added by Drupal.org packaging script on 2015-12-20
+version: '8.x-2.0-rc2'
+core: '8.x'
+project: 'payment'
+datestamp: 1450609165
